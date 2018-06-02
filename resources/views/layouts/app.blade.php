@@ -26,9 +26,7 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                    
-                     <a href="{{ route('logout') }}" onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();"><h3>Logout</h3>
-                     </a>
+                    
                     
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +50,11 @@
                                 
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </li>
-
+                            <li class="nav-item dropdown">
+                                <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();"><h3>Logout</h3>
+                                </a>
+                            </li>
                      
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
