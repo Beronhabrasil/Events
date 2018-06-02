@@ -15,7 +15,6 @@
                     @endif
 
                     You are logged in!
-                    <h6> hello welcome haa ha aha  a</h6>
                 </div>
             </div>
         </div>

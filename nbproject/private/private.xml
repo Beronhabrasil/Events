@@ -8,7 +8,10 @@
             <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/HomeController.php</file>
             <file>file:/C:/laragon/www/leipzig/resources/views/homepage.blade.php</file>
             <file>file:/C:/laragon/www/leipzig/public/css/homepage.css</file>
+            <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/Auth/LoginController.php</file>
+            <file>file:/C:/laragon/www/leipzig/routes/web.php</file>
             <file>file:/C:/laragon/www/leipzig/.env</file>
+            <file>file:/C:/laragon/www/leipzig/config/database.php</file>
         </group>
     </open-files>
 </project-private>
