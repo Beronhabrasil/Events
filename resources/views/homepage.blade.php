@@ -152,7 +152,7 @@
                 </div>
               </div>
             </div>
-                
+                  <script>alert('building content');</script>
                 <div id="Calendar" class="modal fade" role="dialog">
                     <div class="modal-dialog modal-lg" style="height:80%;">
 

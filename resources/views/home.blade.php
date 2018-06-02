@@ -14,10 +14,11 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <script>alert('building content'+' ---> '+ 'You are Login');</script>
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+ 
