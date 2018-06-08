@@ -36,7 +36,10 @@
                         @else
                                 <li class="nav-item"> <a class="nav-link" href="{{ route('login') }}">Login</a>   
                                 <li class="nav-item">            <a class="nav-link"  href="{{ route('register') }}">Register</a>
-                                <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Calendar Mitzuteilen</a></li>      
+                                <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Calendar Mitzuteilen</a></li> 
+                                 <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Highlight Events</a></li> 
+                                  <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Band sucht</a></li> 
+                                   <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >kunsten Homepage</a></li>  
                             @endauth
                         @endif    
 
@@ -175,7 +178,7 @@
     
             <div class="footer">
              <footer class="py-5 bg-dark">
-              <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+              <p class="m-0 text-center text-white">Copyright &copy;  2017</p>
              </footer>
             </div>
        
@@ -186,6 +189,8 @@
                     $(window).on('load',function(){
                         $('#Calendar').modal('show');
                     });
+                    
+                    
                 });
             </script>
             
