@@ -6,13 +6,19 @@ use Illuminate\Http\Request;
 use Spatie\GoogleCalendar\Event;
 use Carbon\Carbon;
 use Announce;
+use Facebook\FacebookRequest;
+
+
 
 class Homepage extends Controller
 {
  
     public function index() {
-
-        return view('homepage');
+        
+      
+       
+    
+     return view('homepage');
     }
     public function InsertEvents(){
     

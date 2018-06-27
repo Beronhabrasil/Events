@@ -37,9 +37,9 @@
                                 <li class="nav-item"> <a class="nav-link" href="{{ route('login') }}">Login</a>   
                                 <li class="nav-item">            <a class="nav-link"  href="{{ route('register') }}">Register</a>
                                 <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Calendar Mitzuteilen</a></li> 
-                                 <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Highlight Events</a></li> 
-                                  <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >Band sucht</a></li> 
-                                   <li> <a class="nav-link" data-toggle="modal" href="#Calendar" >kunsten Homepage</a></li>  
+                                <li> <a class="nav-link" data-toggle="modal" data-target="#createEvent">Events Hinzufügen</a></li> 
+                                <li> <a class="nav-link" data-toggle="modal" href="#" >Band sucht</a></li> 
+                                <li> <a class="nav-link" data-toggle="modal" href="#" >Kunsten Homepage</a></li>  
                             @endauth
                         @endif    
 
@@ -156,6 +156,7 @@
               </div>
             </div>
                   <script>alert('building content');</script>
+                  
                 <div id="Calendar" class="modal fade" role="dialog">
                     <div class="modal-dialog modal-lg" style="height:80%;">
 
@@ -173,6 +174,51 @@
                         </div>
                     </div>
                 </div>
+                   <!-- Modal form-->
+                <div class="modal fade" id="createEvent" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                     <h4 class="modal-title" id="createEvent">Event Hinzufüngen</h4>
+                                    </div>
+
+                                    <!-- Modal Body -->
+                                    <div class="modal-body">
+
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Event name</label>
+                                                  <input name="name" class="form-control" placeholder="Event name"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Datum</label>
+                                                <input type="date" name="name" class="form-control" placeholder="Event name"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Adresse</label>
+                                                  <input type="text" name="name" class="form-control" placeholder="Event name"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Besitzer</label>
+                                                <input type="text" name="name" class="form-control" placeholder="Event name"/>
+                                            </div>
+                                          
+                                          <button type="submit" class="btn btn-default">Senden</button>
+                                        </form>
+                                    </div>
+
+                                    <!-- Modal Footer -->
+                                    <div class="modal-footer">
+                                     <button type="button" class="btn btn-default"data-dismiss="modal">Close</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                
     
     <!-- /.container -->  
     
@@ -189,6 +235,10 @@
                     $(window).on('load',function(){
                         $('#Calendar').modal('show');
                     });
+                     $('#event').click('load',function(){
+                        $('#event').modal('show');
+                    });
+                             
                     
                     
                 });
