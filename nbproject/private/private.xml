@@ -5,10 +5,14 @@
         <group>
             <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/Homepage.php</file>
             <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/GraphEventlist.php</file>
+            <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/Auth/ResetPasswordController.php</file>
+            <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/Auth/RegisterController.php</file>
             <file>file:/C:/laragon/www/leipzig/composer.json</file>
             <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/HomeController.php</file>
             <file>file:/C:/laragon/www/leipzig/resources/views/homepage.blade.php</file>
             <file>file:/C:/laragon/www/leipzig/routes/web.php</file>
+            <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/Auth/ForgotPasswordController.php</file>
+            <file>file:/C:/laragon/www/leipzig/app/Http/Controllers/Auth/LoginController.php</file>
         </group>
     </open-files>
 </project-private>
